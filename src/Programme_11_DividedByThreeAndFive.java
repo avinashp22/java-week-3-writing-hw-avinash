@@ -17,21 +17,12 @@ public class Programme_11_DividedByThreeAndFive {
         for (int x = 1; x<=100; x++)
         {dividedByFive(x);}
     }
-
     // Divided By Three method
     public static void dividedByThree(int number) {
-        if (number % 3 == 0) {
-            System.out.print(number + ",");
-        }
+        if (number % 3 == 0) {System.out.print(number + ",");}
     }
-
     // Divided By Five method
     public static void dividedByFive(int number) {
-        if (number % 5 == 0) {
-            System.out.print(number + ",");
-        }
-
-
-
+        if (number % 5 == 0) {System.out.print(number + ",");}
     }
 }

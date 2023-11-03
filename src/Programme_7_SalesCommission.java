@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Programme_7_SalesCommission {
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);//Scanner declaration for reading input form console
+        Scanner scn = new Scanner(System.in);//Scanner declaration
         System.out.println("Enter Seller Name: ");
         String name = scn.nextLine();
         System.out.println("Enter Seller ID:");
@@ -32,7 +32,7 @@ public class Programme_7_SalesCommission {
         System.out.println("Seller's sales amount is  : " + salesAmount);
         System.out.println("Seller's basic salary is  : " + basicSalary);
         System.out.println("Seller's gross salary is  : " + grossSalary);
-        scn.close();// closing the scanner object
+        scn.close();// closing the scanner
     }
 
 

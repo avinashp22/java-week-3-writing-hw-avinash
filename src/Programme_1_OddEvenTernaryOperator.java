@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class Programme_1_OddEvenTernaryOperator {
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in); //Scanner declaration for reading input form console
+        Scanner scn = new Scanner(System.in); //Scanner declaration
         System.out.println("Please enter the number: ");
         int number = scn.nextInt();
         isItOddOrEvenNumber(number);
-        scn.close(); // closing the scanner object
+        scn.close(); // closing the scanner
     }
 
     // Checking the number is even or odd

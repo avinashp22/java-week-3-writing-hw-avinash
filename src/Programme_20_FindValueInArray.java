@@ -4,7 +4,7 @@
  */
 
 public class Programme_20_FindValueInArray {
-    // This method will find the if array contains value or not?
+    // This method will find the if array contains value or not
     public static boolean isArrayContains(int[] arr, int item) {
         boolean isContain = false;
         for (int i = 0; i < arr.length; i++) {

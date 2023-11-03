@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Programme_10_DoOperationWithSymbol {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);//Scanner declaration for reading input form console
+        Scanner scn = new Scanner(System.in);//Scanner declaration f
         System.out.println("Enter the first number : ");
         int x = scn.nextInt();
         System.out.println("Enter the second number : ");
@@ -16,7 +16,7 @@ public class Programme_10_DoOperationWithSymbol {
         System.out.println("Please select the calculation symbol +, -, *, / : ");
         char symbol = scn.next().charAt(0);
         doOperationBySelectingSymbol(x, y, symbol);
-        scn.close();//Closing the scanner object
+        scn.close();//Closing the scanner
     }
 
     // Calculating operation based on symbol
@@ -27,8 +27,6 @@ public class Programme_10_DoOperationWithSymbol {
         else if (symbol == '/') {System.out.println(x + " / " + y + " = " + (x / y));}
         else {System.out.println("Please enter correct symbol +,-,*,/");}
     }
-
-
 
 
 }

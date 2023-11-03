@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class Programme_6_OddEven {
 
     public static void main(String[] args) {
-        //Scanner declaration for reading input form console
+        //Scanner declaration
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the number you want to check : ");
         int number = scn.nextInt();
         Programme_6_OddEven oddEven = new Programme_6_OddEven();
         System.out.println(number + " is " + oddEven.isItEvenOrOddNumber(number) + " number");
-        // Closing the scanner object
+        // Closing the scanner
         scn.close();
     }
 

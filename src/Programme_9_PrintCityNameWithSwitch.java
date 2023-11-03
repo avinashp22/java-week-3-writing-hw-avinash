@@ -8,14 +8,13 @@ import java.util.Scanner;
 public class Programme_9_PrintCityNameWithSwitch {
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);//Scanner declaration for reading input form console
+        Scanner scn = new Scanner(System.in);//Scanner declaration
         System.out.println("Please enter alphabet between A and F : ");
         String city = scn.next().toUpperCase();
         //Create object and call instance method
         Programme_9_PrintCityNameWithSwitch cityName = new Programme_9_PrintCityNameWithSwitch();
         cityName.printCityName(city);
-        scn.close();    //Closing the scanner object
-
+        scn.close();    //Closing the scanner
 }
     //Printing city name
     public void printCityName(String city) {
